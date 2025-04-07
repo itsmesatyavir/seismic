@@ -1,0 +1,39 @@
+{
+  "name": "seismic",
+  "version": "1.0.0",
+  "description": "Scripts and contracts for interacting with the Seismic devnet",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy": "node scripts/deploy.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsmesatyavir/seismic.git"
+  },
+  "keywords": [
+    "seismic",
+    "blockchain",
+    "smart-contracts",
+    "erc20",
+    "ethereum",
+    "devnet"
+  ],
+  "author": "itsmesatyavir",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itsmesatyavir/seismic/issues"
+  },
+  "homepage": "https://github.com/itsmesatyavir/seismic#readme",
+  "dependencies": {
+    "ethers": "^5.7.2",
+    "solc": "^0.8.18",
+    "dotenv": "^16.0.3",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
